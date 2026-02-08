@@ -1,16 +1,32 @@
-# versiculos_diarios
+📖 Palavra Viva - App Bíblico com IA
+Palavra Viva é um aplicativo móvel desenvolvido em Flutter que oferece uma experiência moderna de leitura bíblica. O grande diferencial do projeto é a integração com a Inteligência Artificial da OpenAI, transformando qualquer capítulo da Bíblia em um audiobook narrado com voz natural e humana.
 
-A new Flutter project.
+✨ Funcionalidades
+Versículo do Dia: Exibe um versículo diário com cache local (funciona offline após o primeiro carregamento).
 
-## Getting Started
+Bíblia em Áudio (IA): Integração com a API OpenAI TTS (Text-to-Speech) para narrar capítulos inteiros com alta fidelidade.
 
-This project is a starting point for a Flutter application.
+Bíblia Completa: Navegação intuitiva entre os 66 livros e seus capítulos.
 
-A few resources to get you started if this is your first Flutter project:
+Design Moderno: Interface limpa, com grade de livros colorida dinamicamente.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Leitura Focada: Modo de leitura sem distrações com navegação facilitada entre capítulos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Multilíngue (Texto): Suporte para alternar entre versões (PT-BR e EN).
+
+🛠️ Tecnologias Utilizadas
+Frontend: Flutter & Dart
+
+Arquitetura: Clean Architecture (separação de Repositories, Models e UI)
+
+APIs:
+
+ABibliaDigital (Fonte dos textos bíblicos)
+
+OpenAI API (Geração de áudio - Modelo TTS-1)
+
+Gerenciamento de Estado: setState nativo otimizado.
+
+Armazenamento Local: shared_preferences para cache de dados.
+
+HTTP: Pacote http para requisições REST.
