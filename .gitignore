@@ -1,0 +1,53 @@
+# --- FLUTTER / DART ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# --- SEGURANÇA (CRUCIAL) ---
+# Ignora arquivos de variáveis de ambiente com suas chaves de API
+.env
+.env.*
+*.env
+
+# --- ANDROID ---
+android/app/libs/
+android/app/src/main/assets/
+android/app/build/
+android/build/
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+
+# --- ANDROID SIGNING (CRUCIAL) ---
+# Ignora chaves de assinatura da loja e senhas
+android/key.properties
+**/*.jks
+**/*.keystore
+
+# --- IOS ---
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Pods/
+ios/.symlinks/
+
+# --- IDEs / EDITORES ---
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+
+# --- SISTEMA OPERACIONAL ---
+.DS_Store
+Thumbs.db
